@@ -1,0 +1,11 @@
+<% @page_title = "Home" %>
+<div class="page-header">
+  <h2>Dashboard</h2>
+</div>
+<h3>Launched Phishing Campaigns</h3>
+
+<div class="container-fluid">
+  <div class="row">
+    <%= render partial: "campaign", collection: @campaigns %>
+  </div>
+</div>
